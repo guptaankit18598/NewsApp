@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/toi"
+            android:menuCategory="secondary"
+            android:title="@string/Times" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/hindu"
+            android:menuCategory="secondary"
+            android:title="@string/hindu" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/express"
+            android:menuCategory="secondary"
+            android:title="@string/express" />
+        <item
+            android:id="@+id/foxNewsFragment"
+            android:icon="@drawable/dna"
+            android:menuCategory="secondary"
+            android:title="@string/dna" />
+        <item
+            android:id="@+id/skyNewsFragment"
+            android:icon="@drawable/indiatoday"
+            android:menuCategory="secondary"
+            android:title="@string/indiatoday" />
+    </group>
+
+    <item android:title="Upcoming"
+        android:menuCategory="secondary">
+        <menu>
+            <item
+                android:id="@+id/upcoming"
+                android:icon="@drawable/bbcicon"
+                android:menuCategory="secondary"
+                android:title="@string/bbc">
+
+            </item>
+        </menu>
+    </item>
+</menu>
